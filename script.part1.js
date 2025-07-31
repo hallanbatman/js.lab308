@@ -20,7 +20,7 @@ const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2;
 // Check three: no number larger than 25
 // This time, we use the OR operator to check
 // if ANY of the numbers is larger than 25.
-const isUnder25 = n1 <= 25 || n2 <= 25 || n3 <= 25 || n4 <= 25;
+const isUnder25 = n1 <= 25 && n2 <= 25 && n3 <= 25 && n4 <= 25;
 //console.log(`Check three: any number larger than 25? ${isOver25}`);
 
 // Check four: all unique numbers
